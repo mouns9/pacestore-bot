@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node bot.js",
+    "ceo": "node agent-ceo.js",
+    "generate-video": "node scripts/generate-video.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
-    "node-telegram-bot-api": "^0.66.0",
-    "dotenv": "^16.0.0"
+    "axios": "^1.14.0",
+    "dotenv": "^16.0.0",
+    "node-telegram-bot-api": "^0.66.0"
   },
   "engines": {
     "node": ">=18"

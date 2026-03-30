@@ -1,2 +1,7 @@
 .env
 .env.save
+node_modules/
+output/
+campaigns.json
+video-tiktok.mp4
+public/assets/generated/
